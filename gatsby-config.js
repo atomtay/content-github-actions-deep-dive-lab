@@ -14,5 +14,11 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: ''
+      }
+    }
   ],
 };
